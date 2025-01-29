@@ -25,6 +25,18 @@ body {
     margin: 20px;
 }
 
+.container h1 {
+    font-size: 24px; /* Tamaño del encabezado */
+    margin-bottom: 10px; /* Espacio debajo del encabezado */
+}
+
+.container p {
+    font-size: 16px; /* Tamaño del texto del párrafo */
+    line-height: 1.5; /* Espaciado entre líneas */
+    max-width: 80%; /* Limita el ancho del párrafo para mejor lectura */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+}
+
 .container .tenor-gif-embed {
     display: flex;
     max-width: 200px;
@@ -41,5 +53,5 @@ body {
     background: #000000;
     padding: 10px 25px;
     border-radius: 8px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0, 0.3);
+    box-shadow: 0.5rem 1rem 3rem hsla(0, 0%, 0%, 0.3); /* Corrección en box-shadow */
 }
